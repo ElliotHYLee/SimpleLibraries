@@ -1,0 +1,13 @@
+libMPUMPL.c
+Tier1MPUMPL.h
+Tier1MPUMPL.c
+Tier2MPUMPL.h
+Tier2MPUMPL.c
+>compiler=C
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-fno-exceptions
+>defs::-std=c99
+>-lm
+>BOARD::ACTIVITYBOARD
